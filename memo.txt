@@ -1,0 +1,11 @@
+--- IMAGES
+Format pour un affichage optimal des images:
+- Wii: 928*528
+- Dolphin: il faut du 4/3 donc par exemple 640*480 (de mémoire, je ne suis pas sûr)
+
+--- DEFINE
+Il y a des "#define wii" / "#define dolphin" dans les fichiers suivants:
+main.cpp
+jeu.cpp
+ingame.cpp
+Il faut changer TOUS ces define pour que ça marche
