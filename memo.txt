@@ -1,11 +1,14 @@
---- IMAGES
-Format pour un affichage optimal des images:
+Problème: le ratio optimal (rapport hauteur/largeur) des images n'est pas le même pour Dolphin et pour la Wii:
 - Wii: 928*528
 - Dolphin: il faut du 4/3 donc par exemple 640*480 (de mémoire, je ne suis pas sûr)
 
---- DEFINE
+Il faudrait donc faire deux versions différentes de chaque décor, et utiliser un #define et des directives de préprocesseur pour utiliser l'une ou l'autre des versions.
+
 Il y a des "#define wii" / "#define dolphin" dans les fichiers suivants:
 main.cpp
 jeu.cpp
 ingame.cpp
 Il faut changer TOUS ces define pour que ça marche
+
+TODO: il faudrait créer un seul fichier (exemple: define.h) dans lequel on met tous les #define, et inclure ce fichier dans tous les autres. Comme ça, il suffirait de changer les #define à un seul endroit.
+
