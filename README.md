@@ -2,7 +2,7 @@ Description
 -----------
 This game is a parody of [Metal Gear Solid](http://en.wikipedia.org/wiki/Metal_Gear_Solid) in which the player must infiltrate our engineering school, [ESIEA](http://www.esiea.fr). It's a 2nd year school project, which goal was to promote ESIEA by making the people play during the open doors days.
 
-![screenshot](https://drive.google.com/file/d/0B31-CIvNW1LdVHFua3h6c0ZJbFk/edit?usp=sharing)
+![screenshot](https://drive.google.com/uc?export=view&id=0B31-CIvNW1LdVHFua3h6c0ZJbFk)
 
 We also wrote a tutorial on how to install development tools, and the basics of programming. It is available (in french) [here](https://drive.google.com/file/d/0B31-CIvNW1LdZno3S1lScTl2Zmc/edit?usp=sharing).
 
